@@ -6,6 +6,7 @@ import {
 
 import './App.css';
 import About from './components/About';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Nav from './components/Nav';
 
@@ -23,7 +24,7 @@ function App() {
             </main>
           </Switch>
           <footer>
-            <h3>page footer</h3>
+            <Footer/>
           </footer>
         </div>
       </Router>
