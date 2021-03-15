@@ -8,6 +8,7 @@ import './App.css';
 import About from './components/About';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Services from './components/Services';
 import Nav from './components/Nav';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Switch>
             <main>
               <Route exact path="/" component={Home} />
+              <Route path="/services" component={Services} />
               <Route path="/about" component={About} />
             </main>
           </Switch>
